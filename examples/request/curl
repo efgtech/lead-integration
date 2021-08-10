@@ -1,0 +1,34 @@
+curl --location --request POST '$API_ENDPOINT' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "api_key": "a97184c2-0c15-4b79-80fc-2c59ad5ef6b3",
+    "provider": {
+        "created": "2021-08-09T21:13:00Z",
+        "source": 1337,
+        "note": "Hello there",
+        "reference": "kenobi-1337"
+    },
+    "term": 50,
+    "cover": {
+        "amount": "50000.00",
+        "type": "LEVEL"
+    },
+    "contact": {
+        "address_line_one": "2 Park Avenue",
+        "postcode": "M33 6HE",
+        "email_address": "youraccountmanager@essential",
+        "numbers": {
+            "home": "00000000000",
+            "work": "00000000000",
+            "mobile": "00000000000"
+        }
+    },
+    "applicants": [
+        {
+            "first_name": "Obi-Wan",
+            "last_name": "Kenobi",
+            "dob": "2021-08-09T21:13:00Z",
+            "title": "MR"
+        }
+    ]
+}'
