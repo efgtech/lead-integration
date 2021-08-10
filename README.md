@@ -21,7 +21,10 @@ Requests are sent via HTTP/1.1 encoded as JSON. We have the capacity to support 
 You can see example requests and responses in the examples directory.
 
 An example request can be see in ```examples/request/request.json```.
-For sending multiple applicants, please send these as unique objects within the ```applicants``` array.  
+
+- For sending multiple applicants, please send these as unique objects within the ```applicants``` array
+
+- At least one contact number is required, if none are provided you will receive a ```contact.numbers: at least one contact number required``` message. 
 
 An example response can be seen in ```examples/response/response.json```.
 
