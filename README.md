@@ -24,7 +24,7 @@ An example request can be see in ```examples/request/request.json```.
 
 - For sending multiple applicants, please send these as unique objects within the ```applicants``` array
 
-- At least one contact number is required, if none are provided you will receive a ```contact.numbers: at least one contact number required``` message. 
+- At least one contact number is required, if none are provided you will receive a ```contact.numbers: at least one contact number required``` message.
 
 An example response can be seen in ```examples/response/response.json```.
 
@@ -50,6 +50,14 @@ ___
 | accepted | boolean | If the lead was accepted.                            |
 | id       | string  | The unique ID (uuid v4) of the lead.                 |
 | message       | string  | A message describing the error if there was one.                 |
+
+___
+
+### Required request headers
+
+| Key   | Value     |
+|----------|---------|
+| Content-Type   | applicant/json |
 
 ___
 
