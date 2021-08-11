@@ -48,8 +48,9 @@ ___
 |----------|---------|------------------------------------------------------|
 | status   | int     | The status code (also mapped into HTTP status code). |
 | accepted | boolean | If the lead was accepted.                            |
-| id       | string  | The unique ID (uuid v4) of the lead.                 |
+| id       | string  | The unique ID (uuid v4) of the lead. This will only be sent if the lead has been accepted.                |
 | message       | string  | A message describing the error if there was one.                 |
+| request_id       | string  | A unique request ID (uuid v4). This is also sent in the ```X-Efgtech-Request-Id``` header.                 |
 
 ___
 
