@@ -57,7 +57,7 @@ ___
 
 | Key   | Value     |
 |----------|---------|
-| Content-Type   | applicant/json |
+| Content-Type   | application/json |
 
 ___
 
