@@ -16,7 +16,7 @@ ___
 
 ## Info
 
-Requests are sent via HTTP/1.1 encoded as JSON. We have the capacity to support other protocols and encoding and this can be discussed with your contact.
+Requests are sent via HTTP/1.1 POST with a JSON encoded body. We have the capacity to support other protocols and encoding and this can be discussed with your contact.
 
 You can see example requests and responses in the examples directory.
 
