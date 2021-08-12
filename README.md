@@ -34,6 +34,7 @@ ___
 
 | Message                | HTTP status code | Resolution                                                                                              |
 |------------------------|------------------|---------------------------------------------------------------------------------------------------------|
+| API key in test mode.  |        200       | Your request was successful but the provided ```api_key``` is in sandbox mode. This is an indication that your integration has been setup correctly and you're ready to leave the sandbox. Your lead will not be imported whilst in the sandbox. |
 | Invalid request body.  |        404       | Check the Content-Type header is set to ```application/json```. If so, check the format of your values. |
 | Unauthorized.          |        401       | Check the ```'api_key'``` field is in the request body.                                                 |
 | Forbidden.             |        403       | Get in touch with your account manager.                                                                 |
@@ -50,7 +51,6 @@ ___
 | accepted | boolean | If the lead was accepted.                            |
 | id       | string  | The unique ID (uuid v4) of the lead. This will only be sent if the lead has been accepted.                |
 | message       | string  | A message describing the error if there was one.                 |
-| request_id       | string  | A unique request ID (uuid v4). This is also sent in the ```X-Efgtech-Request-Id``` header.                 |
 
 ___
 
