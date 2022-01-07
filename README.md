@@ -40,6 +40,7 @@ ___
 | Forbidden.             |        403       | Get in touch with your account manager.                                                                 |
 | {field}: invalid       |        404       | Check that the ```{field}``` in the message is valid and formatted correctly.                           |
 | Unable to handle lead. |        500       | Something has gone wrong on our end. Your request was ok.                                               |
+| Duplicate. |        400       | This is a duplicate                                               |
 
 ___
 
