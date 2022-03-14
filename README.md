@@ -87,3 +87,7 @@ ___
 | contact.email_address  | string | The email address of the lead.           | :white_check_mark: |
 | utm.brand  | string (enum) GOOGLE     BING     UNKNOWN     | The brand of search engine (required if utm.click_id is not NULL).          | :warning: |
 | utm.click_id  | string | The click ID created by the search engine.           | :x: |
+| utm.device  | string | The device being used.           | :x: |
+| utm.model  | string | The device model being used.           | :x: |
+| utm.keyword  | string | The keyword that was matched.           | :x: |
+| utm.match_type  | string | The search match type.           | :x: |
