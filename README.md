@@ -41,7 +41,7 @@ ___
 | {field}: invalid       |        404       | Check that the ```{field}``` in the message is valid and formatted correctly.                           |
 | Unable to handle lead. |        500       | Something has gone wrong on our end. Your request was ok.                                               |
 | Duplicate. |        400       | This is a duplicate                                               |
-| Rejected Number. |        400       | We cannot service this lead due to one or more of the telephone numbers being blocked.                                              |
+| Blocked Number. |        400       | We cannot service this lead due to one or more of the telephone numbers being blocked.                                              |
 ___
 
 ### Response fields
