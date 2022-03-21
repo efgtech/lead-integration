@@ -31,6 +31,10 @@
     ],
     "utm": {
         "brand": "GOOGLE",
-        "click_id": "123xyz"
+        "click_id": "123xyz",
+        "device": "apple",
+        "model": "iphone",
+        "keyword": "this is not the keyword you are looking for",
+        "match_type": "p"
     }
 }
