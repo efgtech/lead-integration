@@ -85,6 +85,7 @@ ___
 | contact.numbers.mobile | string | The mobile telephone number of the lead. | :x:                |
 | contact.numbers.work   | string | The work telephone number of the lead.   | :x:                |
 | contact.email_address  | string | The email address of the lead.           | :white_check_mark: |
+| contact.third_party_contact_email  | string | Used by the supplier for updates.       | :x: |
 | utm.brand  | string (enum) GOOGLE     BING     UNKNOWN     | The brand of search engine (required if utm.click_id is not NULL).          | :warning: |
 | utm.click_id  | string | The click ID created by the search engine.           | :x: |
 | utm.device  | string | The device being used.           | :x: |
