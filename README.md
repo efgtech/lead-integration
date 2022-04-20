@@ -92,3 +92,4 @@ ___
 | utm.model  | string | The device model being used.           | :x: |
 | utm.keyword  | string | The keyword that was matched.           | :x: |
 | utm.match_type  | string | The search match type.           | :x: |
+| utm.camp  | string | The campaign.           | :x: |
