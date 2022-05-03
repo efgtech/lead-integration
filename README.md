@@ -91,5 +91,6 @@ ___
 | utm.model  | string | The device model being used.           | :x: |
 | utm.keyword  | string | The keyword that was matched.           | :x: |
 | utm.match_type  | string | The search match type.           | :x: |
+| utm.camp  | string | The campaign.           | :x: |
 | third_party.email_address  | string | Used by the supplier for updates.       | :x: |
-| third_party.contact_time  | timestamp (rfc3339) | Requested callback time for your client. | :x: |
+| third_party.contact_time  | timestamp (rfc3339) | Requested callback time for your client. | :x: 
